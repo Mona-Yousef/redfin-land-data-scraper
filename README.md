@@ -4,10 +4,10 @@ This project contains Python scripts used to extract, clean, and analyze real es
 
 ## 🧩 Project Overview
 The workflow automates the following steps:
-1. Generate property listing URLs for each U.S. county keyword using Selenium automation (url_generator.py).
-2. Scrape detailed listing data (price, acres, and price per acre) from Redfin using Selenium (redfin_scraper.py).
-3. Filter outliers and retain valid property records using percentile-based trimming (outlier_filtering.py).
-4. Analyze price variability to assess market homogeneity, using median, mean, and coefficient of variation metrics (price_variability_analysis.py).
+1. Generate property listing URLs for each U.S. county keyword using Selenium automation.
+2. Scrape detailed listing data (price, acres, and price per acre) from Redfin using Selenium.
+3. Filter outliers and retain valid property records using percentile-based trimming.
+4. Analyze price variability to assess market homogeneity, using median, mean, and coefficient of variation metrics.
 
 ## 📂 Scripts
 | File | Description |
